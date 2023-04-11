@@ -1,10 +1,10 @@
 {
-    "name": "'mbd - Your Personal AI Recommender",
+    "name": "'mbd The World - Your Personal AI Recommender",
     "action": {
       "default_popup": "./html/popup.html"
     },
     "manifest_version": 3,
-    "version": "2.0.1",
+    "version": "0.0.1",
     "description": "explore web3",
     "permissions": [
       "storage",
@@ -20,7 +20,7 @@
       "matches": ["https://twitter.com/*", "https://youtube.com/*", "https://www.youtube.com/*", "https://stackoverflow.com/*"]
     },
     "icons": {
-        "32": "images/mbd_extension_logo.png"
+        "32": "images/mbd_logo_favicon.png"
     },
     "background": {
       "service_worker": "lib/background.js"
