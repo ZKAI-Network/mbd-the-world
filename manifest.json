@@ -1,0 +1,34 @@
+{
+    "name": "'mbd - Your Personal AI Recommender",
+    "action": {
+      "default_popup": "./html/popup.html"
+    },
+    "manifest_version": 3,
+    "version": "2.0.1",
+    "description": "explore web3",
+    "permissions": [
+      "storage",
+      "scripting"
+    ],
+    "host_permissions": [
+      "https://twitter.com/",
+      "https://youtube.com/",
+      "https://stackoverflow.com/",
+      "https://www.youtube.com/"
+    ],
+    "externally_connectable": {
+      "matches": ["https://twitter.com/*", "https://youtube.com/*", "https://www.youtube.com/*", "https://stackoverflow.com/*"]
+    },
+    "icons": {
+        "32": "images/mbd_extension_logo.png"
+    },
+    "background": {
+      "service_worker": "lib/background.js"
+    },
+    "web_accessible_resources": [
+        {
+            "resources": ["images/mbd_logo.png"],
+            "matches": ["https://twitter.com/*", "https://youtube.com/*", "https://www.youtube.com/*", "https://stackoverflow.com/*"]
+        }
+    ]
+  }
