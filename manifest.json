@@ -14,10 +14,12 @@
       "https://twitter.com/",
       "https://youtube.com/",
       "https://stackoverflow.com/",
-      "https://www.youtube.com/"
+      "https://www.youtube.com/",
+      "https://medium.com/",
+      "https://www.linkedin.com/"
     ],
     "externally_connectable": {
-      "matches": ["https://twitter.com/*", "https://youtube.com/*", "https://www.youtube.com/*", "https://stackoverflow.com/*"]
+      "matches": ["https://twitter.com/*", "https://youtube.com/*", "https://www.youtube.com/*", "https://stackoverflow.com/*", "https://medium.com/*", "https://www.linkedin.com/*"]
     },
     "icons": {
         "32": "images/mbd_logo_favicon.png"
@@ -28,7 +30,7 @@
     "web_accessible_resources": [
         {
             "resources": ["images/mbd_logo.png"],
-            "matches": ["https://twitter.com/*", "https://youtube.com/*", "https://www.youtube.com/*", "https://stackoverflow.com/*"]
+            "matches": ["https://twitter.com/*", "https://youtube.com/*", "https://www.youtube.com/*", "https://stackoverflow.com/*", "https://medium.com/*", "https://www.linkedin.com/*"]
         }
     ]
   }
