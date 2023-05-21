@@ -6,7 +6,7 @@
 ## Welcome to Web3. Discover, Search, and Engage with the Open Internet! 
 
 
-"**Embed The World**" is your social search engine & perosnal AI assistant in the browser: 
+"**Embed The World**" is your social search engine & personal AI assistant in the browser: 
 
 - Find relevant conversations to content you love. Discover the world of Web3!
 
